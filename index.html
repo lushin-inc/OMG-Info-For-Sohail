@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OMG Info for Sohail</title>
+<meta property="og:title" content="OMG Info for Sohail">
+<meta property="og:description" content="Objective Management Group is the sales-hiring assessment Hubexo North America has used for three years — Moneyball for sales hiring.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --stable:#21245C;
+    --stable-2:#171a45;
+    --fresh:#00ADED;
+    --energetic:#0045C2;
+    --passionate:#E34554;
+    --limitless:#FAB040;
+    --ink:#1c1f3a;
+    --body:#3a3f55;
+    --muted:#6b7088;
+    --line:#e4e7f0;
+    --gray:#f4f6fb;
+    --white:#ffffff;
+    --font:'Poppins',Arial,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{font-family:var(--font);color:var(--body);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;}
+  h1,h2,h3,h4{color:var(--stable);font-weight:600;line-height:1.2;letter-spacing:-0.01em;}
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px;}
+  .eyebrow{font-size:.72rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--fresh);}
+  @media (prefers-reduced-motion: reduce){
+    *,*:before,*:after{animation:none!important;transition:none!important;}
+    html{scroll-behavior:auto;}
+  }
+
+  /* Nav — collapsible navy sidebar on desktop, top bar on mobile */
+  body{margin-left:232px;transition:margin-left .25s ease;}
+  .nav{position:fixed;top:0;left:0;bottom:0;width:232px;z-index:50;background:linear-gradient(180deg,var(--stable) 0%,var(--stable-2) 100%);transition:width .25s ease;}
+  .nav .wrap{display:flex;flex-direction:column;align-items:flex-start;height:100%;padding:30px 24px;gap:34px;max-width:none;margin:0;overflow:hidden;}
+  .brand{display:flex;align-items:center;gap:12px;font-weight:600;color:#fff;font-size:1.02rem;line-height:1.3;white-space:nowrap;}
+  .brand .dot{flex:none;width:10px;height:10px;border-radius:50%;background:var(--fresh);box-shadow:0 0 0 4px rgba(0,173,237,.25);}
+  .brand small{display:block;font-weight:300;font-size:.7rem;letter-spacing:.04em;color:#9ea3d6;}
+  .nav-cta{display:inline-flex;align-items:center;gap:8px;background:var(--fresh);color:#06283b;padding:10px 20px;border-radius:999px;font-size:.85rem;font-weight:600;transition:.2s;margin-top:auto;white-space:nowrap;}
+  .nav-cta:hover{background:#fff;}
+  .nav-links{display:flex;flex-direction:column;gap:16px;font-size:.9rem;font-weight:500;color:#c9cdf0;}
+  .nav-links a{padding:2px 0;white-space:nowrap;}
+  .nav-links a:hover{color:var(--fresh);}
+  .nav-toggle{position:absolute;top:30px;right:-14px;width:28px;height:28px;border-radius:50%;background:var(--fresh);color:#06283b;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(6,40,59,.3);z-index:2;}
+  .nav-toggle svg{transition:transform .25s ease;}
+  .nav-toggle:hover{background:#fff;}
+  .nav-toggle:focus-visible{outline:3px solid #fff;outline-offset:2px;}
+  body.navc{margin-left:64px;}
+  body.navc .nav{width:64px;}
+  body.navc .brand span:last-child,body.navc .nav-links,body.navc .nav-cta{display:none;}
+  body.navc .nav-toggle svg{transform:rotate(180deg);}
+  @media(max-width:900px){
+    body,body.navc{margin-left:0;}
+    .nav,body.navc .nav{position:sticky;top:0;left:auto;bottom:auto;width:auto;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+    .nav .wrap{flex-direction:row;align-items:center;height:64px;padding:0 24px;gap:0;justify-content:space-between;}
+    .brand{color:var(--stable);}
+    .brand small{color:var(--muted);}
+    .nav-links,body.navc .nav-links{display:none;}
+    .nav-cta,body.navc .nav-cta{display:inline-flex;margin-top:0;background:var(--stable);color:#fff;font-weight:500;}
+    .nav-toggle{display:none;}
+  }
+
+  /* Hero */
+  .hero{position:relative;background:radial-gradient(1200px 600px at 80% -10%,#2b2f73 0%,var(--stable) 45%,var(--stable-2) 100%);color:#fff;overflow:hidden;}
+  .hero:after{content:"";position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Cpath d='M0 39.5H40M39.5 0V40' stroke='%23ffffff' stroke-opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;}
+  .hero .wrap{position:relative;z-index:2;padding:52px 24px 56px;}
+  .hero h1{color:#fff;font-size:2.9rem;max-width:18ch;font-weight:600;}
+  .hero p.lede{margin-top:22px;font-size:1.1rem;color:#c9cdf0;max-width:58ch;font-weight:300;}
+  .hero .badge{display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.18);padding:7px 15px;border-radius:999px;font-size:.78rem;color:#dfe2ff;margin-bottom:26px;}
+  .hero .badge b{color:#fff;font-weight:600;}
+  .hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:36px;}
+  .btn{display:inline-flex;align-items:center;gap:9px;padding:14px 26px;border-radius:999px;font-weight:600;font-size:.92rem;cursor:pointer;border:none;transition:.2s;font-family:var(--font);}
+  .btn:focus-visible{outline:3px solid var(--fresh);outline-offset:2px;}
+  .btn-primary{background:var(--fresh);color:#06283b;}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(0,173,237,.4);}
+  .btn-ghost-light{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.35);}
+  .btn-ghost-light:hover{border-color:#fff;background:rgba(255,255,255,.08);}
+  @media(max-width:680px){.hero h1{font-size:2.05rem;}.hero .wrap{padding:44px 24px 50px;}}
+
+  /* Sections */
+  section{padding:64px 0;}
+  #unique{padding:44px 0 52px;}
+  #unique .section-head{margin-bottom:22px;}
+  .section-head{max-width:64ch;margin-bottom:44px;}
+  .section-head h2{font-size:2rem;margin-top:10px;}
+  .section-head p{margin-top:14px;font-size:1.03rem;color:var(--muted);font-weight:300;}
+  .center{text-align:center;margin-left:auto;margin-right:auto;}
+  .alt{background:var(--gray);}
+
+  /* What makes OMG unique — accordion */
+  .uniq{max-width:720px;}
+  .uitem{border:1px solid var(--line);border-radius:12px;background:#fff;margin-bottom:10px;overflow:hidden;}
+  .uitem summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:14px;padding:16px 20px;font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--stable);transition:.15s;}
+  .uitem summary::-webkit-details-marker{display:none;}
+  .uitem summary:hover{background:var(--gray);color:var(--energetic);}
+  .uitem summary:focus-visible{outline:3px solid var(--fresh);outline-offset:-3px;}
+  .uitem summary svg{flex:none;color:var(--fresh);transition:transform .2s;}
+  .uitem[open] summary svg{transform:rotate(180deg);}
+  .uitem[open]{border-color:var(--fresh);}
+  .uitem p{padding:0 20px 16px;font-size:.92rem;color:var(--muted);font-weight:300;}
+
+  /* One-column process flow */
+  .flow{max-width:680px;margin:0 auto;}
+  .fstep{display:flex;gap:20px;position:relative;padding-bottom:30px;}
+  .fstep:before{content:"";position:absolute;left:19px;top:44px;bottom:2px;width:2px;background:var(--line);}
+  .fstep.last:before{display:none;}
+  .fnum{flex:none;width:40px;height:40px;border-radius:50%;background:var(--stable);color:#fff;font-weight:700;font-size:.95rem;display:flex;align-items:center;justify-content:center;position:relative;z-index:1;}
+  .fstep.hot .fnum{background:var(--passionate);box-shadow:0 0 0 5px rgba(227,69,84,.12);}
+  .fbody{padding-top:6px;min-width:0;}
+  .fbody h4{font-size:1.08rem;margin-bottom:5px;}
+  .fbody p{font-size:.93rem;color:var(--muted);font-weight:300;}
+  .fbody p b{color:var(--stable);font-weight:600;}
+  .fastlabel{display:inline-block;font-size:.66rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--passionate);margin-bottom:5px;}
+  .fdivider{display:flex;align-items:center;gap:16px;margin:6px 0 30px;}
+  .fdivider:before,.fdivider:after{content:"";flex:1;height:1.5px;background:var(--line);}
+  .fdivider span{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--passionate);white-space:nowrap;}
+  .fgate{margin:0 0 30px 60px;border:1px solid var(--line);border-radius:16px;overflow:hidden;}
+  .fgate .grow{padding:20px 24px;}
+  .fgate .grow.go{border-left:5px solid #16855c;background:rgba(22,133,92,.05);}
+  .fgate .grow.stop{border-left:5px solid var(--passionate);background:rgba(227,69,84,.05);border-top:1px solid var(--line);}
+  .fgate .gtag{display:block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px;}
+  .fgate .go .gtag{color:#16855c;}
+  .fgate .stop .gtag{color:var(--passionate);}
+  .fgate p{font-size:.9rem;color:var(--body);font-weight:300;}
+  .doclink{display:inline-flex;align-items:center;gap:8px;margin-top:12px;background:#fff;border:1.5px solid var(--fresh);color:var(--energetic);border-radius:999px;padding:8px 16px;font-size:.84rem;font-weight:600;transition:.15s;}
+  .doclink:hover{background:var(--fresh);color:#06283b;}
+  .doclink:focus-visible{outline:3px solid var(--fresh);outline-offset:2px;}
+  @media(max-width:560px){.fgate{margin-left:0;}}
+
+  /* What makes OMG unique — accordion */
+  .uniq{max-width:720px;}
+  .uitem{border:1px solid var(--line);border-radius:12px;background:#fff;margin-bottom:10px;overflow:hidden;}
+  .uitem summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:14px;padding:16px 20px;font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--stable);transition:.15s;}
+  .uitem summary::-webkit-details-marker{display:none;}
+  .uitem summary:hover{background:var(--gray);color:var(--energetic);}
+  .uitem summary:focus-visible{outline:3px solid var(--fresh);outline-offset:-3px;}
+  .uitem summary svg{flex:none;color:var(--fresh);transition:transform .2s;}
+  .uitem[open] summary svg{transform:rotate(180deg);}
+  .uitem[open]{border-color:var(--fresh);}
+  .uitem p{padding:0 20px 16px;font-size:.92rem;color:var(--muted);font-weight:300;}
+
+  /* One-column process flow */
+  .flow{max-width:680px;margin:0 auto;}
+  .fstep{display:flex;gap:20px;position:relative;padding-bottom:30px;}
+  .fstep:before{content:"";position:absolute;left:19px;top:44px;bottom:2px;width:2px;background:var(--line);}
+  .fstep.last:before{display:none;}
+  .fnum{flex:none;width:40px;height:40px;border-radius:50%;background:var(--stable);color:#fff;font-weight:700;font-size:.95rem;display:flex;align-items:center;justify-content:center;position:relative;z-index:1;}
+  .fstep.hot .fnum{background:var(--passionate);box-shadow:0 0 0 5px rgba(227,69,84,.12);}
+  .fbody{padding-top:6px;min-width:0;}
+  .fbody h4{font-size:1.08rem;margin-bottom:5px;}
+  .fbody p{font-size:.93rem;color:var(--muted);font-weight:300;}
+  .fbody p b{color:var(--stable);font-weight:600;}
+  .fastlabel{display:inline-block;font-size:.66rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--passionate);margin-bottom:5px;}
+  .fdivider{display:flex;align-items:center;gap:16px;margin:6px 0 30px;}
+  .fdivider:before,.fdivider:after{content:"";flex:1;height:1.5px;background:var(--line);}
+  .fdivider span{font-size:.78rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--passionate);white-space:nowrap;}
+  .fgate{margin:0 0 30px 60px;border:1px solid var(--line);border-radius:16px;overflow:hidden;}
+  .fgate .grow{padding:20px 24px;}
+  .fgate .grow.go{border-left:5px solid #16855c;background:rgba(22,133,92,.05);}
+  .fgate .grow.stop{border-left:5px solid var(--passionate);background:rgba(227,69,84,.05);border-top:1px solid var(--line);}
+  .fgate .gtag{display:block;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px;}
+  .fgate .go .gtag{color:#16855c;}
+  .fgate .stop .gtag{color:var(--passionate);}
+  .fgate p{font-size:.9rem;color:var(--body);font-weight:300;}
+  .doclink{display:inline-flex;align-items:center;gap:8px;margin-top:12px;background:#fff;border:1.5px solid var(--fresh);color:var(--energetic);border-radius:999px;padding:8px 16px;font-size:.84rem;font-weight:600;transition:.15s;}
+  .doclink:hover{background:var(--fresh);color:#06283b;}
+  .doclink:focus-visible{outline:3px solid var(--fresh);outline-offset:2px;}
+  @media(max-width:560px){.fgate{margin-left:0;}}
+
+  .note{background:rgba(0,173,237,.07);border:1px solid rgba(0,173,237,.2);border-radius:14px;padding:24px 26px;display:flex;gap:16px;align-items:flex-start;margin-top:34px;}
+  .note .ic{flex:none;color:var(--fresh);}
+  .note p{font-size:.95rem;color:var(--body);font-weight:300;}
+  .note b{color:var(--stable);font-weight:600;}
+  .note.glen{background:var(--stable);border-color:var(--stable);box-shadow:0 18px 44px rgba(33,36,92,.28);}
+  .note.glen p{color:#c9cdf0;}
+  .note.glen b{color:#fff;}
+  .note.glen .ic{color:var(--fresh);}
+  .note.glen .doclink{background:transparent;color:#fff;border-color:var(--fresh);}
+  .note.glen .doclink:hover{background:var(--fresh);color:#06283b;}
+
+  /* Languages */
+  .lang-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;max-width:760px;margin:0 auto;}
+  .chip{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:11px 20px;font-size:.92rem;font-weight:500;color:var(--stable);transition:.2s;}
+  .chip:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--fresh);flex:none;}
+  .chip:hover{border-color:var(--fresh);box-shadow:0 6px 16px rgba(0,173,237,.14);transform:translateY(-2px);}
+
+  /* Why Lushin */
+  .why{background:var(--stable);color:#fff;}
+  .why h2{color:#fff;}
+  .why .section-head p{color:#c2c6ef;}
+  .whygrid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:10px;}
+  .wrow{display:flex;gap:16px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09);border-radius:14px;padding:22px 24px;}
+  .wrow .ic{flex:none;width:40px;height:40px;border-radius:10px;background:rgba(0,173,237,.18);color:var(--fresh);display:flex;align-items:center;justify-content:center;}
+  .wrow h4{color:#fff;font-size:1.02rem;margin-bottom:4px;}
+  .wrow p{color:#b9bdea;font-size:.9rem;font-weight:300;}
+  @media(max-width:780px){.whygrid{grid-template-columns:1fr;}}
+
+  /* ===== Builder link band ===== */
+  .linkband{display:flex;align-items:center;gap:34px;justify-content:space-between;background:linear-gradient(160deg,var(--stable) 0%,var(--stable-2) 100%);border-radius:20px;padding:44px 46px;flex-wrap:wrap;}
+  .linkband h2{color:#fff;font-size:1.7rem;margin-top:10px;}
+  .linkband p{color:#b8bce8;font-size:.98rem;font-weight:300;margin-top:12px;max-width:56ch;}
+  .lb-copy{flex:1;min-width:280px;}
+  @media(max-width:680px){.linkband{padding:34px 26px;}}
+
+  /* CTA */
+  .cta{background:var(--gray);}
+  .cta-box{background:#fff;border:1px solid var(--line);border-radius:22px;padding:54px 48px;text-align:center;box-shadow:0 24px 60px rgba(33,36,92,.08);}
+  .cta-box h2{font-size:2rem;}
+  .cta-box p{color:var(--muted);font-size:1.03rem;margin:14px auto 30px;max-width:56ch;font-weight:300;}
+  .contact{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-top:30px;}
+  .contact .who{font-weight:600;color:var(--stable);}
+  .contact .who small{display:block;font-weight:300;color:var(--muted);font-size:.85rem;}
+  .pill{display:inline-flex;align-items:center;gap:8px;background:var(--gray);border:1px solid var(--line);border-radius:999px;padding:9px 18px;font-size:.88rem;color:var(--body);font-weight:500;}
+
+  footer{background:var(--stable-2);color:#9ea3d6;padding:34px 0;font-size:.82rem;}
+  footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;}
+  footer .fb{color:#fff;font-weight:600;}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+    <button class="nav-toggle" onclick="document.body.classList.toggle('navc')" aria-label="Collapse or expand the sidebar">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+  <div class="wrap">
+    <div class="brand">
+      <span class="dot"></span>
+      <span>OMG &times; Lushin<small>Prepared for Sohail — Hubexo Global</small></span>
+    </div>
+    <div class="nav-links">
+      <a href="#how">How it works</a>
+      <a href="#global">Going global</a>
+      <a href="hubexo-license-builder.html">License builder</a>
+    </div>
+    <a class="nav-cta" href="#next">Next steps</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <span class="badge">Everything from our conversation, <b>in one place</b></span>
+    <h1>OMG Info for Sohail</h1>
+    <p class="lede">Objective Management Group is the sales-hiring assessment Hubexo North America has used for three years — Moneyball for sales hiring.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="hubexo-license-builder.html">Build a quote by role</a>
+      <a class="btn btn-ghost-light" href="#how">Start with the basics</a>
+    </div>
+  </div>
+</header>
+
+<!-- WHAT MAKES OMG UNIQUE -->
+<section id="unique" class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The assessment</span>
+      <h2>What makes OMG unique</h2>
+    </div>
+    <div class="uniq">
+      <details class="uitem">
+        <summary>Diagnostic<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+        <p>Reveals root causes behind sales performance — not surface symptoms.</p>
+      </details>
+      <details class="uitem">
+        <summary>Sales specific<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+        <p>Measures how sellers think and execute — not generic personality traits.</p>
+      </details>
+      <details class="uitem">
+        <summary>Role specific<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+        <p>Configured for reps, managers, hunters, farmers, and inside roles.</p>
+      </details>
+      <details class="uitem">
+        <summary>Actionable<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+        <p>Every candidate comes back Recommended or Not Recommended.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">The basics</span>
+      <h2>How It Works</h2>
+      <p>OMG doesn't replace your hiring process; it changes where the filter sits. Every applicant takes a sales-specific assessment <em>before</em> anyone spends an hour interviewing them. The assessment is configured to your selling environment — deal size, who they're calling on, market — so "Recommended" means recommended <em>for this role at Hubexo</em>, not sales-capable in general.</p>
+    </div>
+
+    <div class="flow">
+
+      <div class="fstep">
+        <span class="fnum">1</span>
+        <div class="fbody"><h4>Write the ad</h4>
+        <p>Written to attract top performers. The test: a top performer reads it and thinks <b>"that sounds like me"</b> — not "that sounds like fun." Lushin helps write it.</p></div>
+      </div>
+
+      <div class="fstep">
+        <span class="fnum">2</span>
+        <div class="fbody"><h4>Post the ad</h4>
+        <p>Wherever you already post — LinkedIn, Indeed, ZipRecruiter, and so on. Nothing about your job boards changes.</p></div>
+      </div>
+
+      <div class="fstep">
+        <span class="fnum">3</span>
+        <div class="fbody"><h4>Applicants come in</h4>
+        <p>Resumes come in through your normal channels.</p></div>
+      </div>
+
+      <div class="fdivider"><span>Before you talk to anyone&hellip;</span></div>
+
+      <div class="fstep hot">
+        <span class="fnum">4</span>
+        <div class="fbody"><span class="fastlabel">Act fast</span><h4>Send the OMG assessment</h4>
+        <p>The moment an application lands, email the assessment link — about 45 minutes, completed in one sitting, within two business days. No interviews yet, no exceptions.</p>
+        <a class="doclink" href="hubexo-applicant-email-template.pdf" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          The exact email template Hubexo uses (PDF)
+        </a></div>
+      </div>
+
+      <div class="fgate">
+        <div class="grow go"><span class="gtag">Recommended</span><p>Move them forward — the assessment earns them the conversation, not the offer.</p></div>
+        <div class="grow stop"><span class="gtag">Not recommended</span><p>Do not interview. Salespeople interview for a living — the ones who'd charm you in the room are exactly the ones the data exists to protect you from.</p></div>
+      </div>
+
+      <div class="fstep hot">
+        <span class="fnum">5</span>
+        <div class="fbody"><span class="fastlabel">Act fast</span><h4>5-minute phone screen</h4>
+        <p>Schedule it the moment a Recommended comes back — good candidates don't stay on the market.</p></div>
+      </div>
+
+      <div class="fstep">
+        <span class="fnum">6</span>
+        <div class="fbody"><h4>Interview 1 — they prove to you</h4>
+        <p>Put as much pressure on them as they'll experience in the role, and look for evidence, not words. If the role involves cold calling, roleplay a live cold call. Lushin supplies interview questions built from each candidate's report.</p></div>
+      </div>
+
+      <div class="fstep">
+        <span class="fnum">7</span>
+        <div class="fbody"><h4>Interview 2 — get on the same page</h4>
+        <p>Compensation, expectations, logistics — the alignment conversation.</p></div>
+      </div>
+
+      <div class="fstep">
+        <span class="fnum">8</span>
+        <div class="fbody"><h4>Offer letter</h4>
+        <p>Marking the hire in the portal also unlocks a complimentary onboarding upgrade — two coaching reports plus a strengths video for their new manager.</p></div>
+      </div>
+
+      <div class="fstep last">
+        <span class="fnum">9</span>
+        <div class="fbody"><h4>90-day onboarding plan</h4>
+        <p>The coaching reports from step 8 feed straight into the ramp plan.</p></div>
+      </div>
+
+    </div>
+
+    <div class="note glen">
+      <span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></span>
+      <p><b>Proof from inside Hubexo.</b> On the North America team, Glen Jeris — hired through this exact process — outsold the team's long-standing top performer in his first full year. The current sales manager came through the same screen. <a class="doclink" href="glen-jeris-candidate-assessment.pdf" target="_blank" rel="noopener" style="margin-top:10px;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>See Glen's actual pre-hire assessment (PDF)</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- GLOBAL -->
+<section id="global" class="alt">
+  <div class="wrap">
+    <div class="section-head center">
+      <span class="eyebrow">Going global</span>
+      <h2>Languages</h2>
+    </div>
+    <div class="lang-grid">
+      <span class="chip">English</span>
+      <span class="chip">Dutch</span>
+      <span class="chip">French (Canada)</span>
+      <span class="chip">French (Europe)</span>
+      <span class="chip">German</span>
+      <span class="chip">Greek</span>
+      <span class="chip">Italian</span>
+      <span class="chip">Portuguese (Brazil)</span>
+      <span class="chip">Spanish (Latin America)</span>
+      <span class="chip">Spanish (Spain)</span>
+      <span class="chip">Swedish</span>
+    </div>
+
+      </div>
+</section>
+
+<!-- BUILDER LINK -->
+<section id="builder">
+  <div class="wrap">
+    <div class="linkband">
+      <div class="lb-copy">
+        <span class="eyebrow">Price it yourself</span>
+        <h2>Build a license structure by role</h2>
+        <p>Add the roles you're hiring for, set seats per lane, and see the structure priced instantly.</p>
+      </div>
+      <a class="btn btn-primary" href="hubexo-license-builder.html" style="background:var(--stable);color:#fff;flex:none;">
+        Open the license builder
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY LUSHIN -->
+<section id="why" class="why">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What Lushin adds</span>
+      <h2>I'm here to help</h2>
+      <p>OMG sells only through certified partners, and Lushin is OMG's top partner worldwide. Here's what I handle with every license.</p>
+    </div>
+    <div class="whygrid">
+      <div class="wrow">
+        <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></div>
+        <div><h4>Setup done together</h4><p>We configure the role questionnaire together so "Recommended" is calibrated to each Hubexo environment, and I build the candidate email template your team sends.</p></div>
+      </div>
+      <div class="wrow">
+        <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <div><h4>First assessments, read together</h4><p>When results start landing, I walk your hiring managers through what to look for and supply interview questions built from each candidate's report.</p></div>
+      </div>
+      <div class="wrow">
+        <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></div>
+        <div><h4>Managers trained on the tool</h4><p>I train every regional manager that comes onboard — ask anyone in the North America office.</p></div>
+      </div>
+      <div class="wrow">
+        <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <div><h4>One point of contact, globally</h4><p>One relationship for every region — same setup, same scoring, same support.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEXT STEPS -->
+<section id="next" class="cta">
+  <div class="wrap">
+    <div class="cta-box">
+      <h2>Next steps</h2>
+      <a class="btn btn-primary" href="https://meetings.hubspot.com/dan210/30-mins" target="_blank" rel="noopener" style="background:var(--stable);color:#fff;margin-top:26px;">Book 30 minutes with Dan</a>
+      <div class="contact">
+        <a class="pill" href="mailto:dan@lushin.com">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--fresh)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          dan@lushin.com
+        </a>
+        <a class="pill" href="https://meetings.hubspot.com/dan210/30-mins" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--fresh)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book a time
+        </a>
+      </div>
+      <div class="contact" style="margin-top:18px;">
+        <span class="who">Dan Faber<small>Owner &amp; Sales Coach — Lushin, Inc.</small></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="fb">OMG &times; Lushin — for Hubexo Global</span>
+    <span>Prepared for Sohail Bokhari · July 2026</span>
+  </div>
+</footer>
+
+
+</body>
+</html>
